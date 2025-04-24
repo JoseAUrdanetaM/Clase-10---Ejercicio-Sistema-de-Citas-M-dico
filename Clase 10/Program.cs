@@ -130,7 +130,6 @@ namespace Clase_10
             sistema.AgregarPaciente(paciente);
             Console.WriteLine($"\n Paciente agregado con el ID: {paciente.Id}");
         }
-
         static void VerTodosLosPacientes(SistemaCitasMedicas sistema)
         {
             var pacientes = sistema.ObtenerPacientes();
@@ -150,7 +149,6 @@ namespace Clase_10
                 Console.WriteLine($"{paciente.Id}\t{paciente.Nombre}\t{paciente.Edad}");
             }
         }
-
         static void VerPaciente(SistemaCitasMedicas sistema)
         {
             Console.WriteLine("\nMostrar Paciente por Id: ");
